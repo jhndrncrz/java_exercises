@@ -1,18 +1,26 @@
 package Ch3;
 public class Ex2 {
     public static void solution() {
-        int dice1, dice2;
-        int count;
+        int numberWithMaxDivisors;
+        int maxNumberOfDivisors;
 
-        count = 0;
-        do {
-            dice1 = (int)(Math.random()*6 + 1);
-            dice2 = (int)(Math.random()*6 + 1);
-            count++;
-            System.out.printf("Dice 1: %d --- Dice 2: %d\n", dice1, dice2);
+        numberWithMaxDivisors = 1;
+        maxNumberOfDivisors = 1;
+
+        for (int thisNumber = 1; thisNumber < 10000; thisNumber++) {
+            int thisNumberDivisors = 0;
+            for (int divisor = 1; divisor <= thisNumber; divisor++) {
+                if (thisNumber % divisor == 0) {
+                    thisNumberDivisors++;
+                }
+            }
+            if (thisNumberDivisors > maxNumberOfDivisors) {
+                numberWithMaxDivisors = thisNumber;
+                maxNumberOfDivisors = thisNumberDivisors;
+            }
         }
-        while (dice1 != 1 || dice2 != 1);
-        System.out.printf("Snake Eyes at Roll #%d", count);
+
+        System.out.printf("The number with the most divisors is %d, with %d divisors.", numberWithMaxDivisors, maxNumberOfDivisors);
 
     }
 }
