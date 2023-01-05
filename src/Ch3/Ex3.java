@@ -10,7 +10,7 @@ public class Ex3 {
         Scanner stdin = new Scanner(System.in);
         System.out.print("Enter a simple math expression (of the form a ? b): ");
         operand1 = stdin.nextInt();
-        operator = (char) stdin.nextByte();
+        operator = stdin.next().charAt(0);
         operand2 = stdin.nextInt();
 
         result = switch (operator) {
