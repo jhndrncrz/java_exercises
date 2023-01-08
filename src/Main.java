@@ -10,6 +10,7 @@ public class Main {
         // Ch3.Ex1.solution();
         // Ch3.Ex2.solution();
         // Ch3.Ex3.solution();
-        Ch3.Ex4.solution();
+        // Ch3.Ex4.solution();
+        Ch3.Ex5.solution();
     }
 }
