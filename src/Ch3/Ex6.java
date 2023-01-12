@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Ex6 {
     public static void solution() {
-        ArrayList<Integer> numbersWithMaxDivisors = new ArrayList<Integer>();
+        ArrayList<Integer> numbersWithMaxDivisors = new ArrayList<>();
         int maxNumberOfDivisors;
 
         maxNumberOfDivisors = 1;
@@ -17,7 +17,7 @@ public class Ex6 {
                 }
             }
             if (nDivisors > maxNumberOfDivisors) {
-                numbersWithMaxDivisors = new ArrayList<Integer>();
+                numbersWithMaxDivisors = new ArrayList<>();
                 numbersWithMaxDivisors.add(n);
                 maxNumberOfDivisors = nDivisors;
             }

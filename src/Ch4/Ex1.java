@@ -24,8 +24,9 @@ public class Ex1 {
         Scanner stdin;
         String input;
 
-        System.out.println("Enter a string to print capitalized:");
         stdin = new Scanner(System.in);
+
+        System.out.println("Enter a string to print capitalized:");
         input = stdin.nextLine();
 
         printCapitalized(input);

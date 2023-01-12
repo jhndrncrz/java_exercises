@@ -3,31 +3,42 @@ package Ch4;
 import java.util.Scanner;
 
 public class Ex2 {
-    private static void printCapitalized(String str) {
-        String out;
-
-        out = "";
-
-        for (int i = 0; i < str.length(); i++) {
-            if (i == 0 || !Character.isLetter(str.charAt(i - 1))) {
-                out += Character.toUpperCase(str.charAt(i));
-            }
-            else {
-                out += str.charAt(i);
-            }
+    private static int hexValue(char c) {
+        if (Character.isDigit(c)) {
+            return c;
         }
-
-        System.out.println(out);
+        return switch (Character.toUpperCase(c)) {
+            case 'A' -> 10;
+            case 'B' -> 11;
+            case 'C' -> 12;
+            case 'D' -> 13;
+            case 'E' -> 14;
+            case 'F' -> 15;
+            default -> throw new IllegalArgumentException();
+        };
     }
 
     public static void solution() {
         Scanner stdin;
         String input;
+        int totalValue;
 
-        System.out.println("Enter a string to print capitalized:");
         stdin = new Scanner(System.in);
+
+        System.out.println("Enter a string to print its hexadecimal value:");
         input = stdin.nextLine();
 
-        printCapitalized(input);
+        totalValue = 0;
+
+        try {
+            for (int i = 0; i < input.length();  i++) {
+                int charValue = hexValue(input.charAt(i));
+                totalValue = totalValue * 16 + charValue;
+            }
+            System.out.printf("0x%s ==> %d", input, totalValue);
+        }
+        catch (IllegalArgumentException e) {
+            System.out.println("String is not hexadecimal!");
+        }
     }
 }
