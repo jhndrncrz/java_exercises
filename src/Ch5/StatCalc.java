@@ -8,6 +8,11 @@ public class StatCalc {
     private double max;
     private double min;
 
+    public StatCalc() {
+        max = Double.NEGATIVE_INFINITY;
+        min = Double.POSITIVE_INFINITY;
+    }
+
     public void enter(double num) {
         count++;
         sum += num;
