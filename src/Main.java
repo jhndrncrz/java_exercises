@@ -28,7 +28,9 @@ public class Main {
         // Ch5.Ex2.solution();
         // Ch5.Ex3.solution();
         // Ch5.Ex4.solution();
-        Ch5.Ex5.solution();
+        // Ch5.Ex5.solution();
+        // Ch5.Ex6.solution();
+        Ch5.Ex7.solution();
 
     }
 }
