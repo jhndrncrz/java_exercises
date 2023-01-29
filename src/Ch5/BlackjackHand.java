@@ -4,7 +4,7 @@ public class BlackjackHand extends Hand {
 
     /**
      * Computes and returns the value of this hand in the game
-     * of Blackjack.
+     * of Ch5.Blackjack.
      */
     public int getBlackjackValue() {
 
