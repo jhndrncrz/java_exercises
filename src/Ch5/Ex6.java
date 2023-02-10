@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Ex6 {
     static Scanner scanner = new Scanner(System.in);
-    public static void solution() {
+    public static void main(String[] args) {
         int score = 0;
         for (int i = 0; i < 10; i++) {
             AdditionQuestion additionQuestion;

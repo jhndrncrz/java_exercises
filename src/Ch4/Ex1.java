@@ -20,7 +20,7 @@ public class Ex1 {
         System.out.println(out);
     }
 
-    public static void solution() {
+    public static void main(String[] args) {
         Scanner stdin;
         String input;
 

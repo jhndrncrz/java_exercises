@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ex2 {
-    public static void solution() {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         StatCalc statCalc = new StatCalc();
         double input;

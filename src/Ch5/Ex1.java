@@ -1,7 +1,7 @@
 package Ch5;
 
 public class Ex1 {
-    public static void solution() {
+    public static void main(String[] args) {
         System.out.println("Rolling pair of dice until snake eyes");
 
         PairOfDice pairOfDice = new PairOfDice();

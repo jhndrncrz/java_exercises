@@ -3,7 +3,7 @@ package Ch7;
 import java.util.Arrays;
 
 public class Ex3 {
-    public static void solution() {
+    public static void main(String[] args) {
         double[] testDefault = new double[10000];
         for (int i = 0; i < 10000; i++) {
             testDefault[i] = Math.random() * 1000;

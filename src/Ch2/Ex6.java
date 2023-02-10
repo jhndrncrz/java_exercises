@@ -3,7 +3,7 @@ package Ch2;
 import java.util.Scanner;
 
 public class Ex6 {
-    public static void solution() {
+    public static void main(String[] args) {
         String fullName, firstName, lastName, initials;
 
         Scanner stdin = new Scanner(System.in);

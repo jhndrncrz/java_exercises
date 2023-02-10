@@ -6,7 +6,7 @@ import java.util.Scanner;
 import java.util.regex.Pattern;
 
 public class Ex5 {
-    public static void solution() {
+    public static void main(String[] args) {
         double totalSales;
         int noData;
 

@@ -75,7 +75,7 @@ public class Ex5 {
         }
     }
 
-    public static void solution() {
+    public static void main(String[] args) {
         int playerCash = 100;
 
         while (true) {

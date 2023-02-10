@@ -3,7 +3,7 @@ package Ch3;
 import java.util.Scanner;
 
 public class Ex3 {
-    public static void solution() {
+    public static void main(String[] args) {
         double operand1, operand2, result;
         char operator;
 

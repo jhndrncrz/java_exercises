@@ -3,7 +3,7 @@ package Ch3;
 import java.util.ArrayList;
 
 public class Ex6 {
-    public static void solution() {
+    public static void main(String[] args) {
         ArrayList<Integer> numbersWithMaxDivisors = new ArrayList<>();
         int maxNumberOfDivisors;
 

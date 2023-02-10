@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Ex4 {
     static Scanner scanner = new Scanner(System.in);
 
-    public static void solution() {
+    public static void main(String[] args) {
         int items = 0;
         double[] a = new double[100];
         while (true) {

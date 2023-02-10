@@ -3,7 +3,7 @@ package Ch3;
 import java.util.Scanner;
 
 public class Ex4 {
-    public static void solution() {
+    public static void main(String[] args) {
         String sentence;
 
         Scanner stdin = new Scanner(System.in);

@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.io.File;
 
 public class Ex7 {
-    public static void solution() {
+    public static void main(String[] args) {
         String fullName;
         int grade1, grade2, grade3;
         double average;

@@ -49,7 +49,7 @@ public class Ex5 {
         };
     }
 
-    public static void solution() {
+    public static void main(String[] args) {
         double[] sampleArray = {1.1, 3.6, -5.34, 7.29, -9, 11, 13.5, 89.2};
 
         System.out.printf("Maximum: %f\n", arrayMaximum.apply(sampleArray));

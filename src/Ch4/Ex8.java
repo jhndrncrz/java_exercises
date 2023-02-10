@@ -12,7 +12,7 @@ public class Ex8 {
     static ArrayList<Integer> userAnswers = new ArrayList<>();
     static Scanner stdin = new Scanner(System.in);
 
-    public static void solution() {
+    public static void main(String[] args) {
         System.out.println("Basic Addition Quiz");
 
         System.out.print("Enter number of items: ");

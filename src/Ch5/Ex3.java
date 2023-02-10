@@ -1,7 +1,7 @@
 package Ch5;
 
 public class Ex3 {
-    public static void solution() {
+    public static void main(String[] args) {
         System.out.println("Total on Dice     Average Number of Rolls     stDev of Rolls     Max Rolls");
         System.out.println("-------------     -----------------------     --------------     ---------");
         for (int i = 2; i < 13; i++) {

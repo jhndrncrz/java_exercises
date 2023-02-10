@@ -1,7 +1,7 @@
 package Ch2;
 
 public class Ex2 {
-    public static void solution() {
+    public static void main(String[] args) {
         int die1 = (int)(Math.random()*6) + 1;
         int die2 = (int)(Math.random()*6) + 1;
         int roll = die1 + die2;

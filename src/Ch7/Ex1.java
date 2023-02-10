@@ -13,7 +13,7 @@ public class Ex1 {
         }
         return arrayList;
     }
-    public static void solution() {
+    public static void main(String[] args) {
         System.out.println("Creating list with 10 items within the range [0, 100): ");
         System.out.println(createArrayList(10, 100));
         System.out.println("Creating list with 5 items within the range [0, 15): ");

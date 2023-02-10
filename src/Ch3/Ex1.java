@@ -1,6 +1,6 @@
 package Ch3;
 public class Ex1 {
-    public static void solution() {
+    public static void main(String[] args) {
         int dice1, dice2;
         int count;
 

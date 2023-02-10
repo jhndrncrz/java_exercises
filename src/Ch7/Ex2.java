@@ -47,7 +47,7 @@ public class Ex2 {
         }
     }
 
-    public static void solution() {
+    public static void main(String[] args) {
         int[][] testArray = generate2DArray(4, 4);
 
         print2DArray(testArray);

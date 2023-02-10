@@ -1,7 +1,7 @@
 package Ch3;
 
 public class Ex7Pt3 {
-    public static void solution() {
+    public static void main(String[] args) {
         int differentPeople = 0;
         int differentBirthdays = 0;
         boolean[] birthdays = new boolean[365];

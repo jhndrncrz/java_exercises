@@ -19,7 +19,7 @@ public class Ex3 {
         return count;
     }
 
-    public static void solution() {
+    public static void main(String[] args) {
         Scanner stdin;
         int input;
 

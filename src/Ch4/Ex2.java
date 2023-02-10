@@ -18,7 +18,7 @@ public class Ex2 {
         };
     }
 
-    public static void solution() {
+    public static void main(String[] args) {
         Scanner stdin;
         String input;
         int totalValue;

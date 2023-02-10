@@ -4,7 +4,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Ex3 {
-    public static void solution() {
+    public static void main(String[] args) {
         Scanner stdin = new Scanner(System.in);
         System.out.print("Enter your name: ");
         String username = stdin.nextLine().toUpperCase(Locale.ROOT);

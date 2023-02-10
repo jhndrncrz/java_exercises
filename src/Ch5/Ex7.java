@@ -9,7 +9,7 @@ public class Ex7 {
     static int[] playerAnswers = new int[10];
     static int score = 0;
 
-    public static void solution() {
+    public static void main(String[] args) {
         createQuiz();
 
         System.out.println("Welcome to the ARITHMETIC QUIZ!");

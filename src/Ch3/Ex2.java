@@ -1,6 +1,6 @@
 package Ch3;
 public class Ex2 {
-    public static void solution() {
+    public static void main(String[] args) {
         int numberWithMaxDivisors;
         int maxNumberOfDivisors;
 

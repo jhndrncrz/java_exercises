@@ -3,7 +3,7 @@ package Ch2;
 import java.util.Scanner;
 
 public class Ex4 {
-    public static void solution() {
+    public static void main(String[] args) {
         int quarters, dimes, nickels, pennies;
         double dollars;
 
